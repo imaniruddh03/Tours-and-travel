@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    background-image: linear-gradient( 135deg, #97ABFF 10%, #123597 100%);
+
+
+}
+.title{
+    font-size: 3rem;
+    margin: 6vh;
+    
+    border: 7px dashed #162760;
+    text-align: center;
+    padding: 10px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1300px;
+    margin: 0 auto;
+    
+
+
+}
+
+.card{
+    width: 400px;
+    height: max-content;
+    margin: 1rem;
+    padding: 1rem;
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.24) 10px 13px 12px;
+    flex-direction: column;
+    border-radius: 10px;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(20px);
+    
+    
+}
+.image{
+    width: 380px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+
+}
+
+.tour-price{
+    font-size: 1.3rem;
+    color: #1faa59;
+}
+.tour-name{
+    font-size: 1.5rem;
+}
+.read-more{
+    color: #12b0e8;
+    cursor: pointer;
+}
+.btn-red{
+    margin-top: 18px ;
+    padding: 10px 80px;
+    border: 1px solid #b4164b;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #b4161b21;
+}
+.btn-red:hover{
+    background-color: red;
+    color: white;
+    transition: all 0.3s;
+}
+
+.refresh{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 16px;
+    height: 100vh;
+    
+}
+
+.btn-refresh{
+    margin: 18px;
+    padding: 10px 80px;
+    border: 1px solid white;
+    cursor: pointer;
+    border-radius: 20px;
+}
